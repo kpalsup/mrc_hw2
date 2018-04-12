@@ -1,0 +1,10 @@
+Examine the dependencies of mrc_hm2:
+
+First order dependencies:
+kpalsup@haupia:~/catkin_ws$ rospack depends1 mrc_hw2
+std_msgs
+
+Indirect dependencies:
+kpalsup@haupia:~/catkin_ws$ rospack depends1 std_msgs
+message_runtime
+
